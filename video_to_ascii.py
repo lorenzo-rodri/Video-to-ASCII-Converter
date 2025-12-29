@@ -7,8 +7,6 @@ import customtkinter as ctk
 import threading
 import time
 
-# make sure that someone can just download and use without having to install libraries manyually and stuff
-
 class VideoToASCIIApp:
 
 
@@ -130,7 +128,7 @@ ____   ____.__    .___               __              _____    __________________
 
         if folder_path:
             self.folder_path = folder_path
-            self.dest_label.configure(text=f"Source: {os.path.basename(folder_path)}")
+            self.dest_label.configure(text=f"Destination: {os.path.basename(folder_path)}")
 
 
     def load_video(self, path):
@@ -372,7 +370,6 @@ ____   ____.__    .___               __              _____    __________________
         # Load video for preview
         if self.output_video and os.path.exists(self.output_video):
             self.load_video(self.output_video)
-            self.preview_label.configure(text="ASCII Output Preview")
 
     def run(self):
         self.app.mainloop()
