@@ -4,6 +4,15 @@ A Python based app that converts videos into ASCII art. Built with CustomTkinter
 
 ---
 
+## Sample Output
+
+
+https://github.com/user-attachments/assets/99b4473e-4695-4223-9f9d-70094b412d19
+
+
+
+---
+
 ## Features
 - Select a video file (MP4) as source
 - Convert video frames into ASCII art
