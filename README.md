@@ -12,6 +12,12 @@ https://github.com/user-attachments/assets/12f479de-39f5-4146-899f-55d2f6ca4d51
 
 ---
 
+## UI
+
+<img width="800" height="443" alt="Screenshot 2026-11-07 124525" src="https://github.com/user-attachments/assets/bc22445e-b647-4a2c-bd9c-1de0f792746b" />
+
+---
+
 ## Features
 - Select a video file (MP4) as source
 - Convert video frames into ASCII art
